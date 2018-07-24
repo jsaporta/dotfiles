@@ -2,3 +2,6 @@
 map <leader>l :set list!
 
 autocmd BufWritePre * %s/\s\+$//e
+
+autocmd BufNewFile,BufReadPost *.md set filetype=markdown
+let g:markdown_fenced_languages = ['python']
