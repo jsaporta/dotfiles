@@ -1,4 +1,5 @@
 [core]
+	editor = vim
 	pager = less
 [user]
 	email = jasons89@gmail.com
